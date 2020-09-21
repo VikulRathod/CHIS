@@ -73,3 +73,10 @@ _[Ss]cripts
 *.nupkg
 *.ncrunchsolution
 *.dot[Cc]over
+/.vs/ProjectSettings.json
+/.vs/VSWorkspaceState.json
+/Client/.vs/ScoopenUI/v15/Server/sqlite3/db.lock
+/Client/.vs/ScoopenUI/v15/Server/sqlite3/storage.ide
+/Client/.vs/ScoopenUI/v15/Server/sqlite3/storage.ide-shm
+/Client/.vs/ScoopenUI/v15/Server/sqlite3/storage.ide-wal
+/Client/ScoopenUI/AdminContent/css/simple-sidebar.css
