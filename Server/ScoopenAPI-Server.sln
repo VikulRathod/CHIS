@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoopenAPI", "ScoopenAPI\ScoopenAPI.csproj", "{127697C5-9D21-409D-BE82-EACC45763E0B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoopenAPIDAL", "ScoopenAPIDAL\ScoopenAPIDAL.csproj", "{30D81B16-5586-42C9-9957-DD9C49D7DBA8}"
