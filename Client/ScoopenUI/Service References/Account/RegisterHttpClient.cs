@@ -13,17 +13,25 @@ namespace RegistrationAndLogin.Service_References.Account
     {
         public HttpResponseMessage RegisterUser(UserInfo userInfo)
         {
-            using (ServiceClient)
+            try
             {
-                var resource = string.Format("api/register");
+                using (ServiceClient)
+                {
+                    var resource = string.Format("api/register");
 
-                var response = ServiceClient.PostAsJsonAsync(resource, userInfo).Result;
+                    var response = ServiceClient.PostAsJsonAsync(resource, userInfo).Result;
 
-                if (response.IsSuccessStatusCode)
-                    return response;
+                    if (response.IsSuccessStatusCode)
+                        return response;
 
-                return new HttpResponseMessage(HttpStatusCode.BadRequest);
+                    return new HttpResponseMessage(HttpStatusCode.BadRequest);
+                }
             }
+            catch (AggregateException e)
+            {
+                throw new Exception(e.Message);
+            }
+            
         }
 
         public HttpResponseMessage ActivateRegisteredUser(OtpRequest request)
