@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ScoopenAPIDAL</RootNamespace>
     <AssemblyName>ScoopenAPIDAL</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -34,6 +34,8 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Account\AccountControllerDAL.cs" />
     <Compile Include="Account\IAccountControllerDAL.cs" />
+    <Compile Include="Admin\AdminControllerDAL.cs" />
+    <Compile Include="Admin\IAdminControllerDAL.cs" />
     <Compile Include="ScoopenDB.cs" />
     <Compile Include="Connection.cs" />
     <Compile Include="ExecuteBanjaraDB.cs" />

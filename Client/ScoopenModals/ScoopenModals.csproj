@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Account\ActiveUser.cs" />
     <Compile Include="Account\LoginRequest.cs" />
+    <Compile Include="Admin\AddNewAgent.cs" />
     <Compile Include="Notifications\LoginDetailsSmsRequest.cs" />
     <Compile Include="Notifications\SmsOtpRequest.cs" />
     <Compile Include="Notifications\SmsOtpResponse.cs" />

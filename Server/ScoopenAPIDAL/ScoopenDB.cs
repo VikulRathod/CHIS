@@ -14,5 +14,8 @@ namespace ScoopenAPIDAL
         public static string spGetOtpFromDatabase = "usp_GetOtpFromDatabase";
         public static string spAuthenticateUser = "spAuthenticateUser";
         public static string spChangePasswordOnFirstLogin = "usp_ChangePasswordOnFirstLogin";
+        public static string spAddNewAgent = "usp_AddNewAgent";
+        public static string spListOfAgent="usp_ListOfAgent";
+
     }
 }
